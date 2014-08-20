@@ -29,8 +29,6 @@ module.exports = (robot) ->
 
   robot.respond /tots?uzen\s*(.*)?/i, (msg) ->
     str = if msg.match[1] then msg.match[1].trim()+"！" else "突然の死！"
-    msg.send str.length
-    msg.send str.lengthByte()
     len = Math.floor(str.lengthByte() / 2)
 
     msg.send "＿" + ("人".repeat(len + 2)) + "＿"
