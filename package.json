@@ -1,0 +1,25 @@
+{
+	"name": "hubot-totsuzen",
+	"version": "0.0.1",
+	"description": "Hubot-scripts returns 突然の死！",
+	"main": "totsuzen.coffee",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/moqada/hubot-totsuzen.git"
+	},
+	"keywords": [
+		"hubot",
+		"hubot-scripts",
+		"突然の死",
+		"ASCII ART"
+	],
+	"author": "aozora0000",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/aozora0000/hubot-totsuzen/issues"
+	},
+	"homepage": "https://twitter.com/aozora0000"
+}
